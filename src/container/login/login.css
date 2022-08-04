@@ -1,0 +1,14 @@
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.login .login-form h1{
+    display: flex;
+    justify-content: center;
+}
+
+.login .login-form{
+    margin: 88px auto;
+    width: 550px;
+}

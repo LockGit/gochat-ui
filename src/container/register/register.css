@@ -1,0 +1,14 @@
+.register {
+    display: flex;
+    justify-content: center;
+}
+
+.register .register-form h1{
+    display: flex;
+    justify-content: center;
+}
+
+.register .register-form{
+    margin: 88px auto;
+    width: 550px;
+}

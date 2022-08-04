@@ -1,0 +1,58 @@
+@import 'antd/dist/antd.css';
+
+#components-layout-demo-fixed .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header_name {
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+
+.nick_name{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+}
+
+.project .font a {
+    font-weight: bold;
+    font-size: 14px;
+    color: darkcyan;
+}
+
+.project .font a:hover {
+    color: darkcyan;
+}
+
+.main {
+    display: flex;
+    height: 500px;
+    background: blanchedalmond;
+    flex-wrap: nowrap;
+}
+
+.video {
+    width: 62%;
+}
