@@ -40,6 +40,9 @@ export async function get<T>(
     path: string,
     args: RequestInit = {
         method: 'get',
+        headers: {
+            "Content-type": "application/json",
+        } as any,
         // credentials: 'include',
     }): Promise<T> {
     return http<T>(new Request(path, args)).then(errorFilter);
