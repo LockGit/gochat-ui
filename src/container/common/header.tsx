@@ -70,7 +70,7 @@ const PageHeader = () => {
                         userName !== '' &&
                         <div className="nick_name">您好：{userName}</div>
                     }
-                    <Menu theme="dark" mode="horizontal" overflowedIndicator={false} items={items}
+                    <Menu theme="dark" mode="horizontal" items={items}
                           onClick={onMenuClick}></Menu>
                 </div>
             </div>
